@@ -7,14 +7,14 @@ $base-font: "Open Sans", "Helvetica", "sans-serif";
 $header-font: "Montserrat", "sans-serif";
 
 // Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Gotham";
+  src: font-url('gotham-light.eot');
+  src: font-url('gotham-light.eot?#iefix') format('embedded-opentype'),
+       font-url('gotham-light.woff') format('woff'),
+       font-url('gotham-light.ttf') format('truetype')
+}
+$gotham: "Gotham", "Helvetica", "sans-serif";
 
 // Font-size and line-height
 $base-size: 16px;
@@ -30,6 +30,8 @@ $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
 $purple: #6452BD;
+$emerald: #00FF80;
+$dark-emerald: darken($emerald, 10%);
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
